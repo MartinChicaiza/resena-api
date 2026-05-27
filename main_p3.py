@@ -14,7 +14,7 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
-client = MongoClient(os.environ["MONGO_URI"])
+client = MongoClient(os.environ["MONGO_URI_P3"])
 db = client["ISIS2304E05202610"]
 resenas = db["resenas"]
 
